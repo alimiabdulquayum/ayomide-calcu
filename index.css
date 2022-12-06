@@ -63,7 +63,9 @@ button#equal {
         position: relative;
         height: 100vh;
         width: 350px;
-        left: 18px;
+        left: 0;
+        top: 0;
+        buttom: 0;
         
     }
 }
