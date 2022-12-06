@@ -11,8 +11,8 @@ bxody {
 }
 .container {
     position: relative;
-    height: 50vh;
-    width: 25%;
+    height: 100vh;
+    width: 30%;
     display: grid;
     place-items: center;
     box-shadow: 0 0 30px #000;
@@ -20,15 +20,7 @@ bxody {
     top: 10px;
     right: 37.5%;
 }
-.calculator{
-    position: relative;
-    height: auto;
-    width: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 30px #000;
-    background: whitesmoke;
-}
+
 .btn-operator, .btn-equal, .btn-{
     background: orange;
 }
@@ -66,9 +58,12 @@ button#equal {
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
     .container{
+        position: relative;
         height: 100vh;
-        width: 100vw;
+        width: 350px;
+        left: 18px;
+        
     }
 }
